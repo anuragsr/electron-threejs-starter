@@ -5,14 +5,19 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <title>Electron & Three.js Starter</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
-
+    <h1>Electron & Three.js Starter</h1><br/>
+    <div>
+      Node.js <b><span id="node-version"></span></b>
+      Chromium <b><span id="chrome-version"></span></b>
+      and Electron <b><span id="electron-version"></span></b>
+    </div>
+    <span class="sub">
+      Adding Three.js soon!
+    </span>
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
   </body>

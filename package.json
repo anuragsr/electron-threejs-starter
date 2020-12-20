@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "npx electronmon .",
+    "start-original": "electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +18,8 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^11.1.0"
-  }
+    "electron": "^11.1.0",
+    "electronmon": "^1.1.2"
+  },
+  "dependencies": {}
 }
