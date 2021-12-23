@@ -7,5 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: #111;
+    color: #ccc;
 }
 .sub{ margin-top: 5vh; }
