@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
-    "three": "^0.161.0"
+    "three": "^0.162.0"
   },
   "config": {
     "forge": {
