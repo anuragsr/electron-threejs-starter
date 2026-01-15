@@ -21,7 +21,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "@electron-forge/cli": "^7.11.1",
-    "@electron-forge/maker-squirrel": "^7.10.2",
+    "@electron-forge/maker-squirrel": "^7.11.1",
     "@electron-forge/maker-zip": "^7.11.1",
     "electron": "^39.2.7",
     "electronmon": "^2.0.4"
